@@ -1,9 +1,10 @@
-import './App.css';
+import React from 'react';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
-      <h1>I am limitless</h1>
+      <Header />
     </div>
   );
 }
