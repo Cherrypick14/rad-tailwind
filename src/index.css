@@ -4,6 +4,12 @@
 
 @layer components {
     .header-icon{
-        @apply w-6 h-6 cursor-pointer
+        @apply w-6 h-6 cursor-pointer text-yellow-400
+    }
+    .myheader{
+        @apply text-yellow-400
+    }
+    .nav-icon{
+        @apply w-6 h-6 cursor-pointer 
     }
 }
