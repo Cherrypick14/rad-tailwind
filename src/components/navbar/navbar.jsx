@@ -23,10 +23,10 @@ function Navitem({link}){
     <div onClick={()=>setActiveNav(link.id)}
     className=
        { `w-full flex items-center justify-start space-x-8 px-5 cursor-pointer group hover:border-cyan-900 border-l-4 border-transparent 
-       ${activeNav === link.id && "border-cyan-900"}`
+       ${activeNav === link.id && "border-blue-900"}`
    }>
     <span>{link.icon}</span>
-    <h1 className='text-gray-500 group-hover:text-black xl:flex hidden'>
+    <h1 className={`text-gray-500 group-hover:text-black xl:flex hidden ${activeNav === link.id && "text-red-600"}`}>
         {link.title}
         </h1>
     </div>
