@@ -15,6 +15,15 @@ const Navbar = () => {
        <Navitem link={link} key={link.id}/>
      ))}
      </div>
+
+     <div className='xl:flex flex-col hidden items-center justify-center space-y-4 px-4 py-4'>
+        <h1 className='w-full text-xl font-medium'>
+            Grow Your <br /> savings Now!
+        </h1>
+        <p>Pick a strategy that meets your goal</p>
+        <button className='w-full py-3 px-3 bg-cyan-900 text-yellow-400'>Become a Pro</button>
+     </div>
+ 
     </nav>
   )
 }
