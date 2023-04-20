@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { navLinks } from './utils/NavDB';
+import {useRecoilState} from 'recoil';
+import { activeNavItemState } from '../../atom/activetabstate';
 
 const Navbar = () => {
   return (
@@ -18,7 +20,7 @@ const Navbar = () => {
 }
 
 function Navitem({link}){
-    const[activeNav, setActiveNav] = useState();
+    const[activeNav, setActiveNav] = useRecoilState(activeNavItemState);
     return(
     <div onClick={()=>setActiveNav(link.id)}
     className=
