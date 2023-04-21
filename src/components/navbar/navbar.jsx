@@ -6,7 +6,7 @@ import { activeNavItemState } from '../../atom/activetabstate';
 const Navbar = () => {
   return (
     <nav className='col-span-2 border-r border-cyan-900 min-h-[90vh] w-[80px] xl:w-[250px] flex flex-col pt-8 items-start justify-between'>
-     <div className='space-y-8 w-full'>
+     <div className='space-y-8 w-full mb-8'>
      { navLinks.slice(0,4).map((link)=>(
        <Navitem link={link} key={link.id}/>
      ))}
@@ -16,7 +16,7 @@ const Navbar = () => {
      ))}
      </div>
 
-     <div className='xl:flex flex-col hidden items-center justify-center space-y-4 px-4 py-4'>
+     <div className='xl:flex flex-col hidden items-center justify-center space-y-3 p-4'>
         <h1 className='w-full text-xl font-medium'>
             Grow Your <br /> savings Now!
         </h1>
