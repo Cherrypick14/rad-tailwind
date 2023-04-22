@@ -5,12 +5,12 @@ import { activeNavItemState } from '../../atom/activetabstate';
 
 const Navbar = () => {
   return (
-    <nav className='col-span-2 border-r border-cyan-900 min-h-[90vh] w-[80px] xl:w-[250px] flex flex-col pt-8 items-start justify-between'>
+    <nav className='col-span-2 border-r border-gray-300 min-h-[90vh] w-[80px] xl:w-[250px] flex flex-col pt-8 items-start justify-between'>
      <div className='space-y-8 w-full mb-8'>
      { navLinks.slice(0,4).map((link)=>(
        <Navitem link={link} key={link.id}/>
      ))}
-     <div className='w-full border-t border-cyan-300'/>
+     <div className='w-full border-t border-gray-300'/>
        { navLinks.slice(4,6).map((link)=>(
        <Navitem link={link} key={link.id}/>
      ))}
