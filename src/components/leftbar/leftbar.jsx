@@ -10,12 +10,12 @@ const Leftbar = () => {
 
           <h1 className='font-bold text-xl xl:text-2xl pb-3'>My Card</h1>
           <p className='text-md text-cyan-800'> Lorem ipsum dolor sit amet consectetur, adipisiceque sed.</p>
-          <div className='items-start justify-start flex flex-col px-6 pt-8 pb-4 bg-[#50577A] mt-5 w-full'>
+          <div className='items-start justify-start flex flex-col px-6 pt-8 pb-4 bg-[#50577A] mt-5 w-full rounded'>
             <h1>Riley Jones</h1>
             <h1 className='text-3xl xl:text-5xl font-bold py-6'>$800,640.00</h1>
           </div>
 
-          <div className='bg-yellow-400 flex w-full justify-between px-8 py-5 items-start shadow-2xl shadow-blue-950'>
+          <div className='bg-yellow-400 flex w-full justify-between px-8 py-5 items-start shadow-2xl shadow-blue-950 rounded'>
             <span className='items-start justify-start flex flex-col text-[#50577A]'>
               <h1>Card Number</h1>
               <h1>**** **** **** 1738</h1>
