@@ -11,10 +11,8 @@ function App() {
       <div className='w-full min-h-[90vh] grid grid-cols-12'>
         <Navbar />
         <div className='grid grid-cols-1 xl:grid-cols-5 col-span-10 w-full'>
-       {/* {leftbar} */}
-
        <Leftbar />
-        {/* {rightbar} */}
+      
         <Rightbar />
         
         </div>
